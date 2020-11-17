@@ -1,45 +1,61 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# __Cork Kayak Club Website__
+[View the live project here.](#)
 
-Welcome USER_NAME,
+This is the main marketing website for Cork Kayak Club.
+It is designed to be mobile-first and responsive on a range 
+of devices, making it easy to navigate for potential members.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## __User Experience (UX)__
+* ### __User stories__
+  * #### First Time Visitor Goals
+     1. As a First Time visitor, I want to know a bit about the club 
+        and find out information about beginner's kayak courses.
 
-`python3 -m http.server`
+     2. As a First Time Visitor, I want to be able to easily 
+        navigate throughout the site to find content.
 
-A blue button should appear to click: *Make Public*,
+     3. As a First Time Visitor, I want to look for testimonials 
+        to understand what their users think of them and see if 
+        they are trusted. I also want to locate their social media 
+        links to see their followings on social media to determine 
+        how trusted and known they are.
+   * #### Returning Visitor Goals
+     1. As a Returning Visitor, I want to find information 
+        about kayak course and sign up for it.
 
-Another blue button should appear to click: *Open Browser*.
+     2. As a Returning Visitor, I want to find information 
+        about membership and purchase it.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+     3. As a Returning Visitor, I want to find the best way 
+        to get in contact with the club with any 
+        questions I may have.
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+     4. As a Returning Visitor, I want to find social and 
+        other useful links.
+   * #### Frequent User Goals
+     * As a Frequent User, I want to check to see if there are 
+        any newly added updates or photos.
+     
+* ### __Design__
+* ### __Wireframes__
+## __Features__
+## __Technologies Used__
+### __Languages Used__
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+### __Frameworks, Libraries & Programs Used__
+## __Testing__
+### __Testing User Stories from User Experience (UX) Section__
+### __Further Testing__
+### __Known Bugs__
+## __Deployment__
+### __GitHub Pages__
+### __Forking the GitHub Repository__
+### __Making a Local Clone__
+## __Credits__
+### __Code__
+### __Content__
+### __Media__
+### __Acknowledgements__
