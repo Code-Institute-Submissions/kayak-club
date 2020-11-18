@@ -9,37 +9,21 @@ of devices, making it easy to navigate for potential members.
 
 ## __User Experience (UX)__
 * ### __User stories__
-  * #### First Time Visitor Goals
-     1. As a First Time visitor, I want to know a bit about the club 
-        and find out information about beginner's kayak courses.
-
-     2. As a First Time Visitor, I want to be able to easily 
-        navigate throughout the site to find content.
-
-     3. As a First Time Visitor, I want to look for testimonials 
-        to understand what their users think of them and see if 
-        they are trusted. I also want to locate their social media 
-        links to see their followings on social media to determine 
-        how trusted and known they are.
-   * #### Returning Visitor Goals
-     1. As a Returning Visitor, I want to find information 
-        about kayak course and sign up for it.
-
-     2. As a Returning Visitor, I want to find information 
-        about membership and purchase it.
-
-     3. As a Returning Visitor, I want to find the best way 
-        to get in contact with the club with any 
-        questions I may have.
-
-     4. As a Returning Visitor, I want to find social and 
-        other useful links.
-   * #### Frequent User Goals
-     * As a Frequent User, I want to check to see if there are 
-        any newly added updates or photos.
-     
+    - As a new visitor to the website I want to easly navigate throughout the site to find content.
+    - As a new visitor, I want to learn about the club and how it runs.
+    - As a new visitor/potential member, I want to look for testimonials and social media links to find out how trusted and known they are.
+    - As a potential member, I want to visit club gallery to see the people with who I could paddle.
+    - As a potential member, I want to learn more about beginers courses, see timetable, fees and be able to Sign In.
+    - As a returning visitor, I want to find information about membership and purchase it.
+    - As a Returning Visitor, I want easly to get in contact with the club with any questions I may have.
+    - As a Frequent User, I want to check to see if there are any newly added updates or photos.
 * ### __Design__
 * ### __Wireframes__
+    - [Home Page](/assets/images/home.png)
+    - [Gallery Page](/assets/images/gallery.png)
+    - [Courses Page](/assets/images/courses.png)
+    - [Membership Page](/assets/images/membership.png)
+    - [Contact Page](/assets/images/contact.png)
 ## __Features__
 ## __Technologies Used__
 ### __Languages Used__
