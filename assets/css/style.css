@@ -18,7 +18,9 @@ h2 {
 
 h1,
 h2,
-h3 {
+h3,
+h4
+h5 {
     margin: 0;
 }
 
@@ -44,5 +46,31 @@ h3 {
     margin-right: 10px;
 }
 
+.front-container {
+    height: 100vh;
 
+    background: url('../images/hero-background.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+footer p {
+    margin: 0px;
+    text-align: center;
+}
+
+
+.links {
+    margin: 0px;
+    text-align: center;
+}
 
