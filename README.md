@@ -5,8 +5,6 @@ This is the main marketing website for Cork Kayak Club.
 It is designed to be mobile-first and responsive on a range 
 of devices, making it easy to navigate for potential members.
 
-
-
 ## __User Experience (UX)__
 * ### __User stories__
     - As a new visitor to the website I want to easly navigate throughout the site to find content.
@@ -19,17 +17,18 @@ of devices, making it easy to navigate for potential members.
     - As a Frequent User, I want to check to see if there are any newly added updates or photos.
 * ### __Design__
 * ### __Wireframes__
-    - [Home Page](/assets/images/home.png)
-    - [Gallery Page](/assets/images/gallery.png)
-    - [Courses Page](/assets/images/courses.png)
-    - [Membership Page](/assets/images/membership.png)
-    - [Contact Page](/assets/images/contact.png)
+![Home Page](/assets/images/home.png)
+![Gallery Page](/assets/images/gallery.png)
+![Courses Page](/assets/images/courses.png)
+![Membership Page](/assets/images/membership.png)
+![Contact Page](/assets/images/contact.png)
 ## __Features__
 ## __Technologies Used__
 ### __Languages Used__
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 ### __Frameworks, Libraries & Programs Used__
+*[Bootstrap Navigation](https://getbootstrap.com/docs/4.3/components/navbar/)
 ## __Testing__
 ### __Testing User Stories from User Experience (UX) Section__
 ### __Further Testing__

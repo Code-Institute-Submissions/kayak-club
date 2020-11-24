@@ -1,0 +1,48 @@
+/*--------------------------Special paddings/margins/text*/
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+h2 {
+    font-family: "Oswald";
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+
+.navbar-brand {
+    margin: 0px 10px;
+
+}
+
+
+.nav-link {
+    margin: 0px 5px;
+}
+
+
+.navbar-toggler {
+    padding: .2rem .5rem;
+    margin-right: 10px;
+}
+
+
+
