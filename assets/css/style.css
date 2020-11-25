@@ -1,4 +1,4 @@
-/*--------------------------Special paddings/margins/text*/
+/*----------------------------------------------Special paddings/margins/text*/
 
 
 body {
@@ -46,7 +46,10 @@ h5 {
     margin-right: 10px;
 }
 
-.front-container {
+/*----------------------------------------------Front image*/
+
+
+#front-image {
     height: 100vh;
 
     background: url('../images/hero-background.jpg') no-repeat top center fixed;
@@ -60,17 +63,85 @@ h5 {
     justify-content: center;
 
     position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#over-hero {
+    overflow: hidden;
+}
+
+/*----------------------------------------------Footer*/
 
 
 footer p {
     margin: 0px;
+    font-size: 90%;
     text-align: center;
+    color: #fff;
 }
 
 
 .links {
     margin: 0px;
-    text-align: center;
+    text-align: center; 
 }
 
+
+.links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: #343a40;
+    background: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.links li a i:hover {
+    background: #ff5722;
+}
+
+
+.col-sm-3 {
+    margin: 10px 0px;
+}
+
+
+.list-inline-item:not(:last-child) {
+    margin-right: .8rem;
+    margin-top: 10px;
+}
+
+
+/*----------------------------------------------Media*/
+
+@media screen and (min-width: 992px) {
+
+    .big-screen {
+        letter-spacing: 2px;
+    }
+
+    .nav-link {
+    margin: 0px 30px;
+    }
+
+}
