@@ -134,9 +134,20 @@ footer p {
 
 @media screen and (max-width: 410px) {
 
-
     .h2, h2 {
     font-size: 1.6rem;
+    }
+}
+
+
+@media screen and (max-width: 351px) {
+    
+    .navbar {
+            padding: .5rem .5rem;
+    }
+
+    .h2, h2 {
+    font-size: 1.5rem;
     }
 }
 
