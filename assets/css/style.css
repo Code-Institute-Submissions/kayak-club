@@ -25,27 +25,6 @@ h5 {
 }
 
 
-.navbar {
-    padding: 0;
-}
-
-
-.navbar-brand {
-    margin: 0px 10px;
-
-}
-
-
-.nav-link {
-    margin: 0px 5px;
-}
-
-
-.navbar-toggler {
-    padding: .2rem .5rem;
-    margin-right: 10px;
-}
-
 /*----------------------------------------------Front image*/
 
 
@@ -88,7 +67,6 @@ h5 {
 
 footer p {
     margin: 0px;
-    font-size: 90%;
     text-align: center;
     color: #fff;
 }
@@ -145,3 +123,25 @@ footer p {
     }
 
 }
+
+
+@media screen and (max-width: 410px) {
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .navbar-brand {
+        margin: 0px 10px;
+    }
+
+    .navbar-toggler {
+        padding: .2rem .5rem;
+        margin-right: 10px;
+    }
+
+    .h2, h2 {
+    font-size: 1.6rem;
+    }
+}
+
