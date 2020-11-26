@@ -151,3 +151,19 @@ footer p {
     }
 }
 
+
+@media screen and (max-width: 280px) {
+    
+    .navbar-brand {
+        margin: 0px;
+    }
+
+    .navbar-toggler {
+        padding: 0px 2px;
+    }
+
+    .h2, h2 {
+    font-size: 1.4rem;
+    }
+}
+
