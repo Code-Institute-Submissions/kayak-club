@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600|Oswald:300,400,500,600');
+
+
 /*----------------------------------------------Special paddings/margins/text*/
 
 
@@ -8,6 +11,7 @@ body {
 
 h2 {
     font-family: "Oswald";
+    font-weight: 400;
 }
 
 
@@ -18,17 +22,26 @@ h2 {
 
 h1,
 h2,
-h3,
-h4
+h3
+h4,
 h5 {
-    margin: 0;
+    margin: 0px;
+}
+
+
+
+/*----------------------------------------------Colours*/
+
+
+.bg-nav {
+    background-color: rgba(19, 17, 17, 0.932);
 }
 
 
 /*----------------------------------------------Front image*/
+/* All font-image code was taken from love-running tutorial and changed in background property */
 
-
-#front-image {
+#bg-image-home {
     height: 100vh;
 
     background: url('../images/hero-background.jpg') no-repeat top center fixed;
@@ -58,7 +71,7 @@ h5 {
     }
 }
 
-#over-hero {
+.image-overflow {
     overflow: hidden;
 }
 
@@ -69,7 +82,7 @@ footer p {
     margin: 0px;
     text-align: center;
     color: #fff;
-    font-size: 90%;
+    font-size: 95%;
 }
 
 
@@ -97,7 +110,7 @@ footer p {
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
-    color: #343a40;
+    color: rgba(19, 17, 17, 0.932);
     background: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -117,7 +130,58 @@ footer p {
 }
 
 
+/*----------------------------------------------Home Page*/
+
+
+.heading {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.home-letter {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.icons {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ff8a50;
+}
+
+
+
+/*----------------------------------------------Contact Page*/
+
+
+#radio-bn {
+    margin-top: 10px;
+}
+
+
+/* Code was taken from resume-project tutorial and changed for project needs*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #ff5722;
+}
+
+
 /*----------------------------------------------Media*/
+
 
 @media screen and (min-width: 992px) {
 
@@ -127,6 +191,13 @@ footer p {
 
     .nav-link {
     margin: 0px 30px;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 
 }
@@ -166,4 +237,3 @@ footer p {
     font-size: 1.4rem;
     }
 }
-

@@ -28,7 +28,11 @@ of devices, making it easy to navigate for potential members.
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 ### __Frameworks, Libraries & Programs Used__
-*[Bootstrap Navigation](https://getbootstrap.com/docs/4.3/components/navbar/)
+[Bootstrap Navigation](https://getbootstrap.com/docs/4.3/components/navbar/)
+
+[Bootstrap Radio Buttons](https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp)
+
+[Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
 ## __Testing__
 ### __Testing User Stories from User Experience (UX) Section__
 ### __Further Testing__
