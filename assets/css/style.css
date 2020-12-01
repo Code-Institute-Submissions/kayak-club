@@ -54,7 +54,6 @@ h5 {
 
 #bg-image-home {
     height: 100vh;
-
     background: url('../images/hero-background.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -65,7 +64,7 @@ h5 {
     align-items: center;
     justify-content: center;
 
-    position: relative;
+    position: relative; 
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -112,7 +111,7 @@ footer p {
 }
 
 
-/* Code was taken from resume-project tutorial and changed */
+/* Code was taken from "Resume-project" tutorial and changed */
 
 .links li a i {
     width: 32px;
@@ -142,19 +141,18 @@ footer p {
 
 
 /*----------------------------------------------Home Page*/
-
-
-.about-us {
-    margin-bottom: 10px;
+.container-wrapper {
+    padding: 35px 20px 50px;
+    
 }
 
 
-.heading {
+.heading-home {
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -180,11 +178,6 @@ footer p {
 }
 
 
-.usefull-links {
-    margin-bottom: 20px;
-}
-
-
 .btn-primary {
     background: #ff5722;
     border: 2px solid #c41c00;
@@ -192,8 +185,35 @@ footer p {
 }
 
 
+/*----------------------------------------------Gallery Page*/
+
+/*Code was taken from "Love Running" tutorial*/
+
+#gallery {
+    clear: both;
+    /*prevent vertical gaps*/
+    line-height: 0px;
+
+    column-count: 3;
+    column-gap: 0px;
+}
+
+
+#gallery img {
+    width: 100%;
+}
+
 
 /*----------------------------------------------Contact Page*/
+
+
+.heading-contact {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
 
 
 #radio-bn {
@@ -201,7 +221,7 @@ footer p {
 }
 
 
-/* Code was taken from resume-project tutorial and changed for project needs*/
+/* Code was taken from "Resume-project" tutorial and changed for project needs*/
 
 .center-form {
     padding-top: 10px;
@@ -238,6 +258,16 @@ button[type="submit"] {
         max-width: 50%;
     }
 
+}
+
+
+/*Code was taken from "Love Running" tutorial*/
+
+@media screen and (max-width: 800px) {
+
+    #gallery {
+        column-count: 2;
+    }
 }
 
 
