@@ -204,6 +204,29 @@ footer p {
 }
 
 
+/*----------------------------------------------Sign Here Page*/
+
+
+.sign-here-letter {
+    font-weight: 500;
+    padding: 35px 0px 20px;
+}
+
+
+.course {
+    padding-top: 15px;
+    margin: 0 auto;
+    border: 1px solid #0085c1;
+    background: #72e7ff;
+}
+
+
+
+.sign-up {
+    margin: 55px 0px 40px;
+}
+
+
 /*----------------------------------------------Contact Page*/
 
 
