@@ -227,6 +227,14 @@ footer p {
 }
 
 
+.heading-sign-here {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+
 /*----------------------------------------------Contact Page*/
 
 
@@ -258,6 +266,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fff;
     background-color: #ff5722;
+    border: 1px solid #c41c00;
 }
 
 
@@ -310,6 +319,14 @@ button[type="submit"] {
 
     .h2, h2 {
     font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .table-letter {
+    font-size: 80%;
     }
 }
 
