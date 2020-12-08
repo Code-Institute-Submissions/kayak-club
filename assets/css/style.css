@@ -270,6 +270,12 @@ button[type="submit"] {
 }
 
 
+.contact-letter {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
 /*----------------------------------------------Media*/
 
 
@@ -293,6 +299,18 @@ button[type="submit"] {
 }
 
 
+@media screen and (min-width: 768px) {
+
+    .course {
+        margin:0px 50px;
+    }
+
+    .sign-here-container {
+    padding: 0px 30px;
+    }
+}
+
+
 /*Code was taken from "Love Running" tutorial*/
 
 @media screen and (max-width: 800px) {
@@ -305,7 +323,7 @@ button[type="submit"] {
 
 @media screen and (max-width: 410px) {
 
-    .h2, h2 {
+    .h2, h2, h3 {
     font-size: 1.6rem;
     }
 }
@@ -317,7 +335,7 @@ button[type="submit"] {
             padding: .5rem .5rem;
     }
 
-    .h2, h2 {
+    .h2, h2, h3 {
     font-size: 1.5rem;
     }
 }
@@ -326,7 +344,7 @@ button[type="submit"] {
 @media screen and (max-width: 320px) {
 
     .table-letter {
-    font-size: 80%;
+    font-size: 75%;
     }
 }
 
@@ -341,7 +359,7 @@ button[type="submit"] {
         padding: 0px 2px;
     }
 
-    .h2, h2 {
+    .h2, h2, h3 {
     font-size: 1.4rem;
     }
 }
