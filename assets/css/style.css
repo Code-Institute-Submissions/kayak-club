@@ -342,14 +342,6 @@ button[type="submit"] {
 
 
 @media screen and (max-width: 320px) {
-
-    .table-letter {
-    font-size: 75%;
-    }
-}
-
-
-@media screen and (max-width: 280px) {
     
     .navbar-brand {
         margin: 0px;
@@ -361,5 +353,9 @@ button[type="submit"] {
 
     .h2, h2, h3 {
     font-size: 1.4rem;
+    }
+
+    .table-letter {
+    font-size: 75%;
     }
 }
