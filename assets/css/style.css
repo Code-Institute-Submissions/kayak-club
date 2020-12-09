@@ -238,12 +238,32 @@ footer p {
 /*----------------------------------------------Contact Page*/
 
 
+.contact-image {
+    background-image: url("../images/colour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+
+.contact-image-property {
+    margin: 20px auto 0px;
+    max-width: 70%;
+}
+
+
 .heading-contact {
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
     font-weight: 300;
     margin-top: 45px;
     margin-bottom: 40px;
+}
+
+
+.contact-letter {
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
 
@@ -270,12 +290,6 @@ button[type="submit"] {
 }
 
 
-.contact-letter {
-    font-weight: 500;
-    padding-bottom: 20px;
-}
-
-
 /*----------------------------------------------Media*/
 
 
@@ -293,6 +307,14 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
+        max-width: 50%;
+    }
+
+    .contact-image {
+        height: 500px;
+}
+
+    .contact-image-property {
         max-width: 50%;
     }
 
