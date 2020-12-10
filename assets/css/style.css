@@ -238,39 +238,40 @@ footer p {
 /*----------------------------------------------Contact Page*/
 
 
-.contact-image {
-    background-image: url("../images/colour.jpg");
-    background-repeat: no-repeat;
+#contact-image {
+    height: 100vh;
+
+    background: url("../images/colour.jpg") no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 200px;
-}
-
-
-.contact-image-property {
-    margin: 20px auto 0px;
-    max-width: 70%;
 }
 
 
 .heading-contact {
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
-    font-weight: 300;
-    margin-top: 45px;
-    margin-bottom: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 65px;
+    margin-bottom: 50px;
 }
 
 
 .contact-letter {
     font-weight: 500;
     padding-bottom: 20px;
+    color: #fff;
 }
 
 
-#radio-bn {
-    margin-top: 10px;
+.jumbotron {
+    height: 100vh;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 /* Code was taken from "Resume-project" tutorial and changed for project needs*/
 
@@ -309,14 +310,6 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
-    }
-
-    .contact-image {
-        height: 500px;
-}
-
-    .contact-image-property {
         max-width: 50%;
     }
 
