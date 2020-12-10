@@ -60,7 +60,7 @@ h5 {
     -o-background-size: cover;
     background-size: cover;
     
-    display: flex;
+    /*display: flex;
     align-items: center;
     justify-content: center;
 
@@ -68,18 +68,18 @@ h5 {
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
 }
 
 
-@keyframes hero-zoom {
+/*@keyframes hero-zoom {
     from {
         transform: scale(1);
     }
     to {
         transform: scale(1.1);
     }
-}
+}*/
 
 .image-overflow {
     overflow: hidden;
@@ -150,9 +150,9 @@ footer p {
 .heading-home {
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -299,8 +299,10 @@ button[type="submit"] {
         letter-spacing: 2px;
     }
 
-    .nav-link {
-    margin: 0px 30px;
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 15px;
     }
 
     .center-form {
@@ -316,6 +318,26 @@ button[type="submit"] {
 
     .contact-image-property {
         max-width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+
+}
+
+
+@media screen and (min-width: 1600px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 60px;
+        padding-left: 90px;
     }
 
 }
