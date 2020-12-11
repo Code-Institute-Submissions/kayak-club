@@ -207,31 +207,68 @@ footer p {
 /*----------------------------------------------Sign Here Page*/
 
 
+.heading-sign-here {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 65px;
+}
+
+
+#courses-image {
+    height: 300px;
+    background: url("../images/arch.jpg") no-repeat bottom right;
+    background-size: cover;
+    padding: 0px;
+    margin: 40px 15px 10px;
+}
+
+
+#membership-image {
+    height: 300px;
+    background: url("../images/cave.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 0px;
+    margin: 40px 15px 10px;
+}
+
+
 .sign-here-letter {
     font-weight: 500;
     padding: 35px 0px 20px;
 }
 
 
-.course {
-    padding-top: 15px;
-    margin: 0 auto;
-    border: 1px solid #0085c1;
-    background: #72e7ff;
+/*Code was taken from resume tutorial and changed.*/
+
+.sign-here-table {
+    display: block;
+    clear: both;
+    padding-top: 20px;
+    background-color: #72e7ff;
+    border:1px solid #0085c1;
+}
+
+
+.category {
+    width: 200px;
+}
+
+
+.price {
+    width: 140px;
+}
+
+
+.sign-here-table .category,
+.sign-here-table .price {
+    display: inline-block;
 }
 
 
 
 .sign-up {
     margin: 55px 0px 40px;
-}
-
-
-.heading-sign-here {
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 3px;
-    font-weight: 300;
-    margin-top: 60px;
 }
 
 
@@ -266,7 +303,7 @@ footer p {
 }
 
 
-.jumbotron {
+.jumbotron-contact {
     height: 100vh;
     padding: 0px;
     margin-bottom: 0px;
@@ -336,18 +373,6 @@ button[type="submit"] {
 }
 
 
-@media screen and (min-width: 768px) {
-
-    .course {
-        margin:0px 50px;
-    }
-
-    .sign-here-container {
-    padding: 0px 30px;
-    }
-}
-
-
 /*Code was taken from "Love Running" tutorial*/
 
 @media screen and (max-width: 800px) {
@@ -392,7 +417,4 @@ button[type="submit"] {
     font-size: 1.4rem;
     }
 
-    .table-letter {
-    font-size: 75%;
-    }
 }
