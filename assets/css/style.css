@@ -135,6 +135,7 @@ footer p {
 }
 
 
+
 .container-wrapper {
     padding: 35px 20px 50px;
     
@@ -179,39 +180,35 @@ footer p {
 }
 
 
-#union-chandlery {
+.btn-usefull-links {
     width: 195px;
     height: 100px;
-    background: url("../images/union-chandlery.png") no-repeat left center;
-    background-size: cover; 
     border: 1px solid #0085c1;
     margin-bottom: 20px;
+}
+
+
+#union-chandlery {
+    background: url("../images/union-chandlery.png") no-repeat left center;
+    background-size: cover; 
 }
 
 
 #bantry-bay {
-    width: 195px;
-    height: 100px;
     background: url("../images/bantry-bay.png") no-repeat bottom right;
     background-size: cover; 
-    border: 1px solid #0085c1;
-    margin-bottom: 20px;
 }
 
 
 #canoeing-ireland {
-    width: 195px;
-    height: 100px;
     background: url("../images/canoeing-ireland.jpg") no-repeat center center;
     background-size: cover; 
-    border: 1px solid #0085c1;
-    margin-bottom: 20px;
 }
 
 
 /*----------------------------------------------Gallery Page*/
 
-/*Code was taken from "Love Running" tutorial*/
+/*Code was taken from "Love Running" tutorial and modified*/
 
 #gallery {
     clear: both;
@@ -220,11 +217,14 @@ footer p {
 
     column-count: 3;
     column-gap: 0px;
+
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
 #gallery img {
-    width: 100%;
+    width: 98%;
+    margin: 6px;
 }
 
 
@@ -402,13 +402,17 @@ button[type="submit"] {
 }
 
 
-/*Code was taken from "Love Running" tutorial*/
-
 @media screen and (max-width: 800px) {
 
     #gallery {
         column-count: 2;
     }
+
+
+    #gallery img {
+        margin: 3px;
+    }
+
 }
 
 
@@ -416,6 +420,11 @@ button[type="submit"] {
 
     .nav-font {
     font-size: 1.6rem;
+    }
+
+
+    .h1, h1 {
+    font-size: 30px;
     }
 }
 
@@ -444,6 +453,30 @@ button[type="submit"] {
 
     .nav-font {
     font-size: 1.4rem;
+    }
+
+
+    .heading-home {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+
+    .container-wrapper {
+        padding: 35px 10px 35px;
+    }
+
+
+    .heading-sign-here {
+        margin: 30px 0px 0px;
+        font-size: 30px;
+    }
+
+
+    .heading-contact {
+        margin: 30px 0px;
+        font-size: 30px;
     }
 
 }
