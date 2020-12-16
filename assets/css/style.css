@@ -32,6 +32,16 @@ h5 {
 /*----------------------------------------------Navigation*/
 
 
+.right-end-links {
+justify-content: flex-end;    
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0px 100px 0px 50px;
+    }
+
+
 .bg-nav {
     background-color: rgba(19, 17, 17, 0.932);
 }
@@ -217,8 +227,6 @@ footer p {
 
     column-count: 3;
     column-gap: 0px;
-
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -268,9 +276,6 @@ footer p {
 .sign-here-table {
     display: block;
     clear: both;
-    padding-top: 20px;
-    background-color: #72e7ff;
-    border:1px solid #0085c1;
 }
 
 
@@ -335,10 +340,6 @@ footer p {
 }
 
 
-.form-control {
-    background-color: antiquewhite;
-}
-
 /* Code was taken from "Resume-project" tutorial and changed for project needs*/
 
 .center-form {
@@ -362,15 +363,11 @@ button[type="submit"] {
 
 @media screen and (min-width: 992px) {
 
+
     .big-screen {
         letter-spacing: 2px;
     }
 
-    
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 30px;
-        padding-left: 15px;
-    }
 
     .center-form {
         padding-top: 30px;
@@ -382,23 +379,10 @@ button[type="submit"] {
 }
 
 
-@media screen and (min-width: 1280px) {
-    
+@media screen and (max-width: 1400px) {
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 30px;
-        padding-left: 60px;
+        padding: 0px 30px 0px 30px;
     }
-
-}
-
-
-@media screen and (min-width: 1600px) {
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 60px;
-        padding-left: 90px;
-    }
-
 }
 
 
