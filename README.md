@@ -45,6 +45,9 @@ of devices, making it easy to navigate for potential members and partners.
     - Bootstrap was used to create responsive, stylish website and to navigate it easly.
 3. [Hoover.css](https://ianlunn.github.io/Hover/)
 ## __Testing__
+![html-checker](/assets/images/html-validator.png)
+![css-checker](/assets/images/css-checker.png)
+![lighthouse](/assets/images/lighthouse-validation.png)
 ### __Testing User Stories from User Experience (UX) Section__
 ### __Further Testing__
 ### __Known Bugs__
@@ -55,6 +58,7 @@ of devices, making it easy to navigate for potential members and partners.
 ## __Credits__
 ### __Code__
  - The full page background image code came from [here](https://css-tricks.com/perfect-full-page-background-image/)
+
 ### __Content__
 ### __Media__
 ### __Acknowledgements__
