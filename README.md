@@ -33,6 +33,7 @@ of devices, making it easy to navigate for potential members and partners.
 ![Contact Page](/assets/images/contact.png)
 ## __Features__
  - Responsive on all device sizes
+ - Interactive elements
 ## __Technologies Used__
 ### __Languages Used__
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -42,7 +43,7 @@ of devices, making it easy to navigate for potential members and partners.
     - Balsamiq was used to design wireframes.
 2. [Bootstrap 4.5.3.](https://getbootstrap.com/)
     - Bootstrap was used to create responsive, stylish website and to navigate it easly.
-[Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
+3. [Hoover.css](https://ianlunn.github.io/Hover/)
 ## __Testing__
 ### __Testing User Stories from User Experience (UX) Section__
 ### __Further Testing__
@@ -53,6 +54,7 @@ of devices, making it easy to navigate for potential members and partners.
 ### __Making a Local Clone__
 ## __Credits__
 ### __Code__
+ - The full page background image code came from [here](https://css-tricks.com/perfect-full-page-background-image/)
 ### __Content__
 ### __Media__
 ### __Acknowledgements__
