@@ -136,18 +136,27 @@ footer p {
 
 
 .jumbotron-home {
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 4px;
-    font-weight: 500;
-    background: rgba(0, 0, 0, 0.3);
+    background: transparent;
     color: #fff;
-    padding: 0px 4px 4px;
 }
 
 
 
+.jumbotron-home h1 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-size: 85px;
+}
+
+
+.jumbotron-home p {
+    font-weight: 500;
+}
+
+
 .container-wrapper {
-    padding: 35px 20px 50px;
+    padding: 35px 40px 50px;
     
 }
 
@@ -187,6 +196,7 @@ footer p {
     background: #ff5722;
     border: 2px solid #c41c00;
     color:#fff;
+    font-size: x-small;
 }
 
 
@@ -398,16 +408,24 @@ button[type="submit"] {
 }
 
 
+@media screen and (max-width: 415px) {
+
+    .jumbotron-home h1 {
+        font-size: 40px;
+    }
+
+    .jumbotron-home p {
+        font-size: xx-small;
+    }
+}
+
+
 @media screen and (max-width: 410px) {
 
     .nav-font {
     font-size: 1.6rem;
     }
 
-
-    .h1, h1 {
-    font-size: 30px;
-    }
 }
 
 
@@ -437,16 +455,12 @@ button[type="submit"] {
     font-size: 1.4rem;
     }
 
-    .jumbotron-home {
-    letter-spacing: 2px;
-    }
-
-    .jumbotron-home h1 {
-    font-size: 30px;
+    .jumbotron-home h1{
+        letter-spacing: 2px;
     }
 
     .heading-home {
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 30px;
         font-size: 35px;
     }
