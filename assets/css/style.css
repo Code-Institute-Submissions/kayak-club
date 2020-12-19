@@ -32,6 +32,9 @@ h5 {
 /*----------------------------------------------Navigation*/
 
 
+/*The next code was mentioned by my Mentor */
+
+
 .right-end-links {
 justify-content: flex-end;    
 }
@@ -59,7 +62,7 @@ justify-content: flex-end;
 
 
 /*----------------------------------------------Front image*/
-/* All font-image code was taken from Whisky-drop tutorial and changed in background property */
+/* All bg-image-home code was taken from Whisky-drop tutorial and changed in background property. */
 
 #bg-image-home {
     height: 100vh;
@@ -73,7 +76,7 @@ justify-content: flex-end;
     align-items: center;
     justify-content: center;
 
-    position: relative; 
+    position: relative;  
 }
 
 
@@ -135,7 +138,7 @@ footer p {
 /*----------------------------------------------Home Page*/
 
 
-.jumbotron-home {
+.jumbotron-home { 
     background: transparent;
     color: #fff;
 }
@@ -146,7 +149,7 @@ footer p {
     font-family: "Oswald", sans-serif;
     letter-spacing: 4px;
     font-weight: 500;
-    font-size: 85px;
+    font-size: 75px;
 }
 
 
@@ -249,6 +252,14 @@ footer p {
 /*----------------------------------------------Sign Here Page*/
 
 
+/*Calculation code was given by my Mentor*/
+
+
+#sign-here {
+    min-height: calc(100vh - 142px);
+}
+
+
 .heading-sign-here {
     font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
@@ -330,7 +341,7 @@ footer p {
     letter-spacing: 3px;
     font-weight: 500;
     color: #fff;
-    margin-top: 65px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -347,6 +358,11 @@ footer p {
     padding: 0px;
     margin-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 
@@ -389,6 +405,15 @@ button[type="submit"] {
 }
 
 
+@media screen and (min-width: 1200px) {
+
+    #bg-image-home {
+        justify-content: flex-end;
+    }
+
+}
+
+
 @media screen and (max-width: 1400px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0px 30px 0px 30px;
@@ -408,14 +433,19 @@ button[type="submit"] {
 }
 
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 420px) {
 
     .jumbotron-home h1 {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .jumbotron-home p {
-        font-size: xx-small;
+        font-size: x-small;
+    }
+
+    .heading-contact {
+        margin: 70px 0px 30px;
+        font-size: 30px;
     }
 }
 
@@ -471,11 +501,6 @@ button[type="submit"] {
 
     .heading-sign-here {
         margin: 30px 0px 0px;
-        font-size: 30px;
-    }
-
-    .heading-contact {
-        margin: 30px 0px;
         font-size: 30px;
     }
 
