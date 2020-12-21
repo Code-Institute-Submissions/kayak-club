@@ -407,6 +407,7 @@ button[type="submit"] {
 
     .jumbotron-home h1 {
         letter-spacing: 2px;
+        font-size: 35px;
     }
 
     .heading-home {
@@ -422,5 +423,13 @@ button[type="submit"] {
     .heading-sign-here {
         margin: 30px 0px 0px;
         font-size: 30px;
+    }
+
+    .heading-contact {
+        margin: 50px 0px 30px;
+    }
+
+    .form-control {
+        margin-bottom: 0px;
     }
 }
