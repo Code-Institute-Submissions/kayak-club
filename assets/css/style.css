@@ -360,7 +360,16 @@ button[type="submit"] {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 760px){
+    #contact-image, #bg-image-home,
+    .jumbotron-contact {
+        height: 600px;
+    }
+
+    .heading-contact {
+        margin: 50px 0px 30px;
+    }
+
     .jumbotron-home h1 {
         font-size: 45px;
     }
@@ -422,13 +431,5 @@ button[type="submit"] {
     .heading-sign-here {
         margin: 30px 0px 0px;
         font-size: 30px;
-    }
-
-    .heading-contact {
-        margin: 50px 0px 30px;
-    }
-
-    .form-control {
-        margin-bottom: 0px;
     }
 }
