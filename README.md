@@ -8,17 +8,17 @@ of devices, making it easy to navigate for potential members and partners.
 ![Cork Kayak Club](/assets/images/kayak-club.png)
 ## __User Experience (UX)__
 * ### __User stories__
-    - As a new visitor to the website I want to easly navigate throughout the site to find content.
+    - As a new visitor to the website, I want to easily navigate throughout the site to find content.
     - As a new visitor, I want to learn about the club and how it runs.
     - As a new visitor/potential member, I want to look for testimonials and social media links to find out how trusted and known they are.
-    - As a potential member, I want to visit club gallery to see the people with who I could go paddling.
-    - As a potential member, I want to learn more about beginers courses, see timetable, fees and be able to sign up for the chosen course.
-    - As a returning visitor, I want to find information about membership and purchase it.
-    - As a Returning Visitor, I want easly to get in contact with the club with any questions I may have.
+    - As a potential member, I want to visit club gallery to see photos.
+    - As a potential member, I want to learn more about the beginner's course, see timetable, fees and be able to sign up for the chosen course.
+    - As a returning visitor, I want to find information about membership and prices.
+    - As a Returning Visitor, I want to easily get in contact with the club with any questions I may have.
     - As a Frequent User, I want to check to see if there are any newly added updates or photos.
 * ### __Design__
     - __Colour Scheme__
-      - Two main colours used- dark grey and turquoise. Secondary colour is orange.
+      - Two colours used for the site- primary colour  is turquoise, secondary is orange.
     - __Typography__
       - Oswald and Roboto fonts were used throughout all website with Sans Serif
         as the fallback font in case chosen fonds are not imported correctly. Roboto is the main font, Oswald was used for the headings.
@@ -67,10 +67,13 @@ of devices, making it easy to navigate for potential members and partners.
     - Color Tool in Material Design was used to choose primary and secondary colours and their light and dark options.
 ## __Testing__
 - W3C Markup Validator
+
 ![html-checker](/assets/images/html-validator.png)
 - W3C CSS Validator
+
 ![css-checker](/assets/images/css-checker.png)
-- Lighthouse Validator
+- Lighthouse Report
+
 ![lighthouse](/assets/images/lighthouse-validation.png)
 ### __Testing User Stories from User Experience (UX) Section__
 ### __Further Testing__
@@ -93,7 +96,7 @@ The project was deployed on GitHub Pages using the following steps:
 4. To clone the repository using HTTPS, copy the link.
 5. Create new repository or open the location where you want to clone chosen directory.
 6. Use terminal to type __git clone__, and then paste the URL copied in Step 4.
-7. Press Enter. Your local clone will be created.
+7. Press Enter. The local clone will be created.
 ![Local Clone](/assets/images/git-clone.png)
 ## __Credits__
 ### __Code__
@@ -104,5 +107,5 @@ The project was deployed on GitHub Pages using the following steps:
 ### __Media__
 - Some photos used in this website were obtained from [Unsplash.com](https://unsplash.com/s/photos/kayak) and [Flickr.com](https://www.flickr.com/photos/barefoot-expeditions/).
 - A few photos were given by my friend-kayaker.
-### __Acknowledgements__
-- My Mentor for continuous helpful feedback and some ideas.
+### __Acknowledgement__
+- My Mentor for continuous helpful feedback, ideas and support.
