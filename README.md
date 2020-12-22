@@ -76,7 +76,7 @@ of devices, making it easy to navigate for potential members and partners.
 ![lighthouse](/assets/images/lighthouse-validation.png)
 ### __Testing User Stories from User Experience (UX) Section__
 - As a new visitor to the website, I want to easily navigate throughout the site to find content.
-    - Upon entering the site, a new visitor can observe, on the top of the page, a navigation bar with links, which clear describe the content of the pages.
+    - Upon entering the site, a new visitor can observe, on the top of the page, a navigation bar with links, which clearly describes the content of the pages.
     - Each page has the same navigation bar and their link looks white when active/open.
     - In the site, a new visitor will find a few internal and external links which lead to important content. 
     - External links are open in new browser tabs to ensure the user can easily get back to the website.
@@ -84,7 +84,7 @@ of devices, making it easy to navigate for potential members and partners.
     - A new visitor can scroll down the Home Page to "About Us" section and read all information related to the club.
 -  As a new visitor/potential member, I want to look for testimonials and social media links to find out how trusted and known they are.
     - Once a new visitor/potential member has read the "About Us" section, some testimonials are presented in next section- "Quotes" . There are a few club members wrote their feedback.
-    - A new visitor/potential member can find Social Links in the footer on each page. Every link is highlighted.
+    - A new visitor/potential member can find Social Links in the footer on each page. Every link is highlighted when hovering over it.
 - As a potential member, I want to visit club gallery to see photos.
     - The user/potential member has two options to go to club gallery- using navigation link or "Our Photos" button under "Who are we?" part of "About Us" section.
 - As a potential member, I want to learn more about the beginner's course, see timetable, fees and be able to sign up for the chosen course.
@@ -100,7 +100,6 @@ of devices, making it easy to navigate for potential members and partners.
 ### __Further Testing__
 - A large amount of testing were done on Google Chrome, inspecting how the site looks on various devises: desktop, laptop, iPad and the range of mobile phones. Mobile phones were tested in a rotating position as well.
 - My friend helps to review the site and documentation to point out any bugs and user experience issues.
-### __Known Bugs__
 ## __Deployment__
 ### __GitHub Pages__
 The project was deployed on GitHub Pages using the following steps:

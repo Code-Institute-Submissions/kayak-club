@@ -290,8 +290,8 @@ footer p {
     letter-spacing: 3px;
     font-weight: 500;
     color: #fff;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 65px;
+    margin-bottom: 40px;
 }
 
 .contact-letter {
@@ -373,7 +373,7 @@ button[type="submit"] {
         font-size: x-small;
     }
 
-    #contact-image, #bg-image-home,
+    #contact-image,
     .jumbotron-contact {
         height: 600px;
     }
