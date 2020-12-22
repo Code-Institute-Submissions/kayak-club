@@ -167,7 +167,6 @@ footer p {
     background: #ff5722;
     border: 2px solid #c41c00;
     color: #fff;
-    font-size: x-small;
 }
 
 .btn-usefull-links {
@@ -254,11 +253,11 @@ footer p {
 }
 
 .category {
-    width: 200px;
+    width: 125px;
 }
 
 .price {
-    width: 200px;
+    width: 55px;
 }
 
 .sign-here-table .category,
@@ -267,7 +266,7 @@ footer p {
 }
 
 .sign-up {
-    margin: 55px 0px 40px;
+    margin: 20px 0px 30px;
 }
 
 /*----------------------------------------------Contact Page*/
